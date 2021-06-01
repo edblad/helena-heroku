@@ -7,6 +7,7 @@ const CenterDiv = ({children}) => {
             color: "white",
             background: "#f37272", 
             display: "flex",
+            flexDirection: "column",
             height: "100vh",
             justifyContent: "center",
             alignItems: "center"
