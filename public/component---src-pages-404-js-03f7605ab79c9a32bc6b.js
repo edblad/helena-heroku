@@ -1,0 +1,2 @@
+(self.webpackChunkhelena_heroku=self.webpackChunkhelena_heroku||[]).push([[883],{616:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return r}});var u=t(294);function r(){return u.createElement("div",{className:"container"},u.createElement("h1",null,"404"))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-03f7605ab79c9a32bc6b.js.map
