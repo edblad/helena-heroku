@@ -17,7 +17,7 @@ class ColorChanger extends React.Component {
         let isClicked = this.state.clicked ? "#a73c3c" : "#f37272"
 
         return (
-            <div onClick={this.handleClick} style={{ background: isClicked, padding: "7px", borderRadius: "5px", cursor: "pointer" }}>
+            <div onClick={this.handleClick} style={{ background: isClicked, padding: "7px", borderRadius: "5px", cursor: "pointer", margin: "10px", }}>
                 Click me!
             </div>
         )

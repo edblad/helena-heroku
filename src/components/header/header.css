@@ -1,0 +1,41 @@
+header {
+    background: white;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: #333;
+    text-decoration: none;
+}
+
+header ul { 
+    margin: 0; 
+    padding: 0; 
+}
+
+header ul li {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+header ul li a {
+    margin: 0px 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+header ul li a:hover {
+    background-color: pink;
+}
+
+.logo {
+    transform: rotate(-15deg);
+    font-size: 75px;
+    margin-top: 40px;
+}

@@ -1,20 +1,21 @@
 import React from 'react';
 
-const CenterDiv = ({children}) => {
+const CenterDiv = (props) => {    
     return (
         <div style={{
-            fontFamily: "sans-serif",
             color: "white",
-            background: "#f37272", 
+            background: props.background, 
             display: "flex",
             flexDirection: "column",
-            height: "100vh",
+            height: "calc(100vh - 90px)",
             justifyContent: "center",
             alignItems: "center"
         }}>
-            {children}
+            {props.children}
         </div>
     )
 }
+
+
 
 export default CenterDiv;
