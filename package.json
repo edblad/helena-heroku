@@ -1,0 +1,26 @@
+{
+  "name": "helena-heroku",
+  "version": "1.0.0",
+  "description": "Testing deploying to Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edblad/helena-heroku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edblad/helena-heroku/issues"
+  },
+  "homepage": "https://github.com/edblad/helena-heroku#readme",
+  "dependencies": {
+    "gatsby": "^3.6.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
